@@ -15,6 +15,11 @@ export default defineConfig({
       file: "dist/bundle.mjs",
       format: "esm",
     },
+    {
+      file: "dist/index.js",
+      format: "esm",
+      sourcemap: true,
+    },
   ],
   watch: {
     exclude: "node_modules/**",
