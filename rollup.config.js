@@ -16,9 +16,9 @@ export default defineConfig({
       format: "esm",
     },
     {
-      file: "dist/index.js",
-      format: "esm",
-      sourcemap: true,
+      file: "dist/bundle.js",
+      format: "cjs",
+      // sourcemap: true,
     },
   ],
   watch: {

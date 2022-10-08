@@ -1,3 +1,5 @@
-import HelloWorld from "./warm/13-hello-world";
+import foo from "./warm/13-hello-world";
 
-export { HelloWorld };
+export default function () {
+  console.log(foo);
+}
