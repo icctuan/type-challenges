@@ -11,9 +11,9 @@ type MyPick<T, K extends keyof T> = {
 type TodoPreview = MyPick<Todo, "title" | "completed">;
 
 // expected:
-// const todo: TodoPreview = {
-//     title: 'Clean room',
-//     completed: false,
-// }
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
 
 export default MyPick;
