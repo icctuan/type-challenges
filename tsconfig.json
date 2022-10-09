@@ -22,5 +22,6 @@
     // "types": ["vite-plugin-svgr/client"]
     "importHelpers": false
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.js"]
 }
